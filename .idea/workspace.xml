@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="356f7ce3-a7ae-47ce-b588-c8806c2aac9c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Counter/Assets.xcassets/LaunchImage.launchimage/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Counter/GlobalPicker.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Counter/MyThemes.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Counter/Plist/Night.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Counter/Plist/White.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Counter/UI/SettingsVC/ConcurrencyCell.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Counter.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter.xcodeproj/xcuserdata/uuttff8.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Counter.xcodeproj/xcuserdata/uuttff8.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Counter/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/star_black.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/star_black.imageset/star-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/star_black.imageset/star-2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/star_white.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/star_white.imageset/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/star_white.imageset/star@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/video_black.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/video_black.imageset/video-player-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/video_black.imageset/video-player-2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/video_white.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/video_white.imageset/video-player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Assets.xcassets/video_white.imageset/video-player@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Counter/Supporting Files/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Counter.xcdatamodeld/.xccurrentversion" beforeDir="false" afterPath="$PROJECT_DIR$/Counter/Supporting Files/Counter.xcdatamodeld/.xccurrentversion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Counter.xcdatamodeld/Counter.xcdatamodel/contents" beforeDir="false" afterPath="$PROJECT_DIR$/Counter/Supporting Files/Counter.xcdatamodeld/Counter.xcdatamodel/contents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Counter/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/LaunchImages/Default-568h@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/MainTabBar.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Counter/MainTabBar.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/PriceVC/Price.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Counter/UI/PriceVC/Price.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Counter/SettingsVC/Settings.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Counter/UI/SettingsVC/Settings.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/uuttff8.xcuserdatad/xcschemes/Pods-Counter.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/uuttff8.xcuserdatad/xcschemes/Pods-Counter.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/uuttff8.xcuserdatad/xcschemes/Pods-CounterTests.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/uuttff8.xcuserdatad/xcschemes/Pods-CounterTests.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/uuttff8.xcuserdatad/xcschemes/Pods-CounterUITests.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/uuttff8.xcuserdatad/xcschemes/Pods-CounterUITests.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/uuttff8.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/uuttff8.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/SwiftTheme/Source/NSObject+Theme.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SwiftTheme/Source/NSObject+Theme.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/SwiftTheme/Source/ThemeActivityIndicatorViewStylePicker.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SwiftTheme/Source/ThemeActivityIndicatorViewStylePicker.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/SwiftTheme/Source/ThemeDictionaryPicker.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SwiftTheme/Source/ThemeDictionaryPicker.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/SwiftTheme/Source/ThemeStatePicker.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SwiftTheme/Source/ThemeStatePicker.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/SwiftTheme/Source/UIKit+Theme.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/SwiftTheme/Source/UIKit+Theme.swift" afterDir="false" />
+    </list>
+    <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/Counter-fryucxizfqerryblyhzghalhrwog/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Counter" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Counter" type="1d218c8b:XcodeProjectNode" />
+              <item name="Counter" type="fcab9f18:XcodeViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="43" width="1400" height="837" extended-state="0" />
+    <layout>
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14928572" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Cargo" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt" />
+  </component>
+</project>
