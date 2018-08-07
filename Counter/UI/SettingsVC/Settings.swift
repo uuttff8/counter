@@ -48,7 +48,7 @@ class Settings: UIViewController {
         let displayHeight: CGFloat = self.view.frame.height
         
         myTableView = UITableView(frame: CGRect(x: 0, y: barHeight, width: displayWidth, height: displayHeight - barHeight))
-        myTableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
+        myTableView.register(CustomCell.self, forCellReuseIdentifier: "custom")
         myTableView.dataSource = self
         myTableView.delegate = self
         
@@ -65,8 +65,8 @@ extension Settings: UITableViewDelegate, UITableViewDataSource
         print("Value: \(data[indexPath.row])")
         
         switch indexPath.row {
-        case 0: print("")
-        case 1: print("")
+        case 0: print("") // make transition to Concurrency View
+        case 1: print("") // make transition to Theme View
             
         default: break
         }
@@ -77,8 +77,9 @@ extension Settings: UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath as IndexPath)
-        cell.textLabel!.text = "\(data[indexPath.row].message!)"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "custom") as! CustomCell
+        cell.message = data[indexPath.row].message!
+        cell.mainImage = data[indexPath.row].image!
         return cell
     }
 
