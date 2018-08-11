@@ -78,8 +78,8 @@ extension Settings: UITableViewDelegate, UITableViewDataSource {
         print("Value: \(data[indexPath.row])")
         
         switch indexPath.row {
-        case 0: print("")
-        case 1: print("")
+        case 0: print("") // make transition to Concurrency View
+        case 1: print("") // make transition to Theme View
             
         default: break
         }
@@ -89,5 +89,15 @@ extension Settings: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
     }
+<<<<<<< HEAD
+=======
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "custom") as! CustomCell
+        cell.message = data[indexPath.row].message!
+        cell.mainImage = data[indexPath.row].image!
+        return cell
+    }
+>>>>>>> origin
 
 }
