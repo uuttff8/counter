@@ -17,19 +17,14 @@ class Settings: UIViewController {
     
     private var data = [CellDataNew]()
     
-    
-    private let myArray: NSArray = ["Concurrency","Donate","Night Theme","Support Stores"]
     private var myTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = .white
-        //view.backgroundColor = UIColor(red: 34/255.0, green: 34/255.0, blue: 34/255.0, alpha: 1)
+        title = "Settings"             // Title navBar
         
-        // Settings Titles
-        title = "Settings"
-
         if #available(iOS 11.0, *) {
             self.navigationController?.navigationBar.prefersLargeTitles = true
             self.navigationItem.largeTitleDisplayMode = .always
@@ -40,26 +35,44 @@ class Settings: UIViewController {
         
     }
     
-    func createTableView()
-    {
-        // UITableView
+    
+    // MARK: - UITableView
+    func createTableView() {
         let barHeight: CGFloat = UIApplication.shared.statusBarFrame.size.height
         let displayWidth: CGFloat = self.view.frame.width
         let displayHeight: CGFloat = self.view.frame.height
         
         myTableView = UITableView(frame: CGRect(x: 0, y: barHeight, width: displayWidth, height: displayHeight - barHeight))
-        myTableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
+        myTableView.register(CustomCell.self, forCellReuseIdentifier: "custom")
         myTableView.dataSource = self
         myTableView.delegate = self
+        myTableView.rowHeight = 44.0
         
-        data = [CellDataNew.init(image: UIImage(named: ""), message: "Hello Lol")]
+        data = [CellDataNew.init(image: UIImage(named: "me"), message: "Concurrency")]
     }
 }
 
 
-extension Settings: UITableViewDelegate, UITableViewDataSource
-{
+extension Settings: UITableViewDelegate, UITableViewDataSource {
     // MARK: - UITableView
+    
+     // Cell for Row at
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "custom") as! CustomCell
+        cell.mainImage = data[indexPath.row].image
+        cell.message = data[indexPath.row].message
+        
+        cell.separatorInset = UIEdgeInsets.zero
+        cell.layoutMargins = UIEdgeInsets.zero
+        
+        if (indexPath.row % 2) == 0 {
+            cell.separatorInset.left = 100
+        }
+        
+        return cell
+    }
+    
+    // did Select Row At
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("Num: \(indexPath.row)")
         print("Value: \(data[indexPath.row])")
@@ -72,16 +85,9 @@ extension Settings: UITableViewDelegate, UITableViewDataSource
         }
     }
     
+    // number Of Rows In Section
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
     }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath as IndexPath)
-        cell.textLabel!.text = "\(data[indexPath.row].message!)"
-        return cell
-    }
 
 }
-// PLEASE TO DO A EACH CELLS IS CUSTOM
-// YOU MUST USE ARRAY OF STRUCT "CellDataNew"(temporarily) AND ASSIGN CUSTOM BY EACH CELL + TRANSITION

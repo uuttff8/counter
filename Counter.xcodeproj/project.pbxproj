@@ -12,7 +12,6 @@
 		3284193A0EBC96944B2D66B2 /* Pods_CounterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6E92E3CA07D1E685C3304B /* Pods_CounterUITests.framework */; };
 		4E36C202210FA13F00510746 /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E36C201210FA13F00510746 /* TableViewVC.swift */; };
 		4E36C204210FA19500510746 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E36C203210FA19500510746 /* CustomCell.swift */; };
-		4E51220020FB5AF500909FFD /* ConcurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5121FF20FB5AF500909FFD /* ConcurrencyCell.swift */; };
 		4E8D940820D414C800891859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D940720D414C800891859 /* AppDelegate.swift */; };
 		4E8D941020D414C800891859 /* Counter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D940E20D414C800891859 /* Counter.xcdatamodeld */; };
 		4E8D941220D414C800891859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8D941120D414C800891859 /* Assets.xcassets */; };
@@ -50,7 +49,6 @@
 		3B6E92E3CA07D1E685C3304B /* Pods_CounterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CounterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E36C201210FA13F00510746 /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
 		4E36C203210FA19500510746 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		4E5121FF20FB5AF500909FFD /* ConcurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyCell.swift; sourceTree = "<group>"; };
 		4E8D940420D414C800891859 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8D940720D414C800891859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E8D940F20D414C800891859 /* Counter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Counter.xcdatamodel; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 				4E8D951020D4168600891859 /* Settings.swift */,
 				4E36C201210FA13F00510746 /* TableViewVC.swift */,
 				4E36C203210FA19500510746 /* CustomCell.swift */,
-				4E5121FF20FB5AF500909FFD /* ConcurrencyCell.swift */,
 			);
 			path = SettingsVC;
 			sourceTree = "<group>";
@@ -450,7 +447,6 @@
 				4E8D950E20D4167E00891859 /* MainTabBar.swift in Sources */,
 				4E36C204210FA19500510746 /* CustomCell.swift in Sources */,
 				4E8D940820D414C800891859 /* AppDelegate.swift in Sources */,
-				4E51220020FB5AF500909FFD /* ConcurrencyCell.swift in Sources */,
 				4E36C202210FA13F00510746 /* TableViewVC.swift in Sources */,
 				4EBD49F320F279CA0074D6E2 /* MyThemes.swift in Sources */,
 				4EBD49FE20F283870074D6E2 /* GlobalPicker.swift in Sources */,
