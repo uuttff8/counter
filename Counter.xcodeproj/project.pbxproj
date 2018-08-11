@@ -10,7 +10,6 @@
 		04D586A78ABF27F384D7103A /* Pods_Counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6640263354E5457F46C72F69 /* Pods_Counter.framework */; };
 		10979224B6A11477C5AA7A3B /* Pods_CounterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76388D152BA2DC386418303 /* Pods_CounterTests.framework */; };
 		3284193A0EBC96944B2D66B2 /* Pods_CounterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6E92E3CA07D1E685C3304B /* Pods_CounterUITests.framework */; };
-		4E36C202210FA13F00510746 /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E36C201210FA13F00510746 /* TableViewVC.swift */; };
 		4E36C204210FA19500510746 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E36C203210FA19500510746 /* CustomCell.swift */; };
 		4E8D940820D414C800891859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D940720D414C800891859 /* AppDelegate.swift */; };
 		4E8D941020D414C800891859 /* Counter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D940E20D414C800891859 /* Counter.xcdatamodeld */; };
@@ -47,7 +46,6 @@
 /* Begin PBXFileReference section */
 		0145981DF79EC26FFD231CC8 /* Pods-Counter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Counter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Counter/Pods-Counter.debug.xcconfig"; sourceTree = "<group>"; };
 		3B6E92E3CA07D1E685C3304B /* Pods_CounterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CounterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E36C201210FA13F00510746 /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
 		4E36C203210FA19500510746 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		4E8D940420D414C800891859 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8D940720D414C800891859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 			isa = PBXGroup;
 			children = (
 				4E8D951020D4168600891859 /* Settings.swift */,
-				4E36C201210FA13F00510746 /* TableViewVC.swift */,
 				4E36C203210FA19500510746 /* CustomCell.swift */,
 			);
 			path = SettingsVC;
@@ -447,7 +444,6 @@
 				4E8D950E20D4167E00891859 /* MainTabBar.swift in Sources */,
 				4E36C204210FA19500510746 /* CustomCell.swift in Sources */,
 				4E8D940820D414C800891859 /* AppDelegate.swift in Sources */,
-				4E36C202210FA13F00510746 /* TableViewVC.swift in Sources */,
 				4EBD49F320F279CA0074D6E2 /* MyThemes.swift in Sources */,
 				4EBD49FE20F283870074D6E2 /* GlobalPicker.swift in Sources */,
 				4E8D951120D4168600891859 /* Price.swift in Sources */,
