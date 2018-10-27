@@ -8,7 +8,6 @@
 
 import UIKit
 import CoreData
-import SwiftTheme
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,45 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainVC = MainTabBar()
         window?.rootViewController = mainVC
         
-        // default: White.plist
-        ThemeManager.setTheme(plistName: "White", path: .mainBundle)
-        
-        // status bar
-        UIApplication.shared.theme_setStatusBarStyle("UIStatusBarStyle", animated: true)
-        
-        //
-        MyThemes.restoreLastTheme()
-        
-        // status bar
-        
-        UIApplication.shared.theme_setStatusBarStyle([.lightContent, .default, .lightContent, .lightContent], animated: true)
-        
         // navigation bar
-        
-        let navigationBar = UINavigationBar.appearance()
-        
         let shadow = NSShadow()
         shadow.shadowOffset = CGSize(width: 0, height: 0)
         
-        let titleAttributes = GlobalPicker.barTextColors.map { hexString in
-            return [
-                NSAttributedString.Key.foregroundColor: UIColor(rgba: hexString),
-                NSAttributedString.Key.font: UIFont.systemFont(ofSize: 16),
-                NSAttributedString.Key.shadow: shadow
-            ]
-        }
-        
-        navigationBar.theme_tintColor = GlobalPicker.barTextColor
-        navigationBar.theme_barTintColor = GlobalPicker.barTintColor
-        navigationBar.theme_titleTextAttributes = ThemeDictionaryPicker.pickerWithAttributes(titleAttributes)
-        
-        // tab bar
-        
-        let tabBar = UITabBar.appearance()
-        
-        tabBar.theme_tintColor = GlobalPicker.barTextColor
-        tabBar.theme_barTintColor = GlobalPicker.barTintColor
-
         return true
     }
     func applicationWillResignActive(_ application: UIApplication) {
